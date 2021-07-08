@@ -14,4 +14,5 @@
 
 FROM alpine
 COPY helloworld.sh /
+RUN chmod 755 /helloworld.sh
 CMD ["/helloworld.sh"]
